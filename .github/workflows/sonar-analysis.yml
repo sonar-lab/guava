@@ -30,7 +30,7 @@ jobs:
             "-Dsonar.projectName=50-guava" `
             "-Dsonar.sources=." `
             "-Dsonar.exclusions=**/*.md,bin" `
-            "-Dsonar.java.binaries=**/build/classes" `
+            "-Dsonar.java.binaries=**/target/classes" `
             "-Dsonar.javascript.node.maxspace=4096" `
             "-Dsonar.sourceEncoding=UTF-8" `
             "-Dsonar.host.url=http://localhost:9000" `
